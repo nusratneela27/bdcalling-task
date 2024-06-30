@@ -12,3 +12,9 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.shadow {
+  background: url(../src/assets/shadow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

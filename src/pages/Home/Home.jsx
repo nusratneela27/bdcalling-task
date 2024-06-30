@@ -1,6 +1,7 @@
 import Banner from "./Banner";
 import PopularCourses from "./PopularCourses";
 import Training from "./Training";
+import Discounted from "./Discounted";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner></Banner>
       <Training></Training>
       <PopularCourses></PopularCourses>
+      <Discounted></Discounted>
     </div>
   );
 };
