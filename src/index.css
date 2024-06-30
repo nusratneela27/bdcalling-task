@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-sans;
+}
+
+/* Custom text gradient class */
+.text-gradient {
+  background: linear-gradient(45deg, #6f48fc, #d07ef6, #56c6e7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

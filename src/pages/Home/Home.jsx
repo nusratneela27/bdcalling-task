@@ -1,10 +1,13 @@
-import { Button } from "antd";
-import React from "react";
+import Banner from "./Banner";
+import PopularCourses from "./PopularCourses";
+import Training from "./Training";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <Banner></Banner>
+      <Training></Training>
+      <PopularCourses></PopularCourses>
     </div>
   );
 };

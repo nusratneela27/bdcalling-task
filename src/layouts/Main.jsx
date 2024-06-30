@@ -4,7 +4,7 @@ import Navbar from "../components/Shared/Navbar/Navbar";
 
 const Main = () => {
   return (
-    <div>
+    <div className="bg-slate-50">
       <Navbar></Navbar>
       <Outlet></Outlet>
     </div>
