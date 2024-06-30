@@ -18,3 +18,15 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.shadow1 {
+  background: url(../src/assets/Shadow-bg/Purple.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.shadow2 {
+  background: url(../src/assets/Shadow-bg/Blue.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}

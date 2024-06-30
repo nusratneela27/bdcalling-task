@@ -1,10 +1,11 @@
 import { Button } from "antd";
+import { NavLink } from "react-router-dom";
 
 const NavButtons = () => {
   return (
     <div className="flex items-center md:space-x-4">
       <Button type="text" className="text-base font-semibold hidden md:block">
-        Login
+        <NavLink to={"/login"}>Login</NavLink>
       </Button>
       <Button
         type="primary"
