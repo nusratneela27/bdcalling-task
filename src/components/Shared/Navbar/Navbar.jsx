@@ -8,10 +8,8 @@ const Navbar = () => {
     <Container>
       <div className="flex items-center justify-between  h-16">
         <HeadName></HeadName>
-        {/* <div> */}
         <Routes></Routes>
         <NavButtons></NavButtons>
-        {/* </div> */}
       </div>
     </Container>
   );

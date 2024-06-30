@@ -44,7 +44,7 @@ const Routes = () => {
           <AiOutlineMenu />
         </div>
         {isOpen && (
-          <div className="absolute rounded-xl shadow-md w-[40vw] md:w-[10vw] bg-white overflow-hidden right-0 top-12 text-sm">
+          <div className="absolute z-10 rounded-xl shadow-md w-[40vw] md:w-[10vw] bg-white overflow-hidden right-0 top-12 text-sm">
             <div className="flex flex-col cursor-pointer space-y-2 m-2">
               {[
                 "/",

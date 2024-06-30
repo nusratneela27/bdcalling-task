@@ -7,6 +7,7 @@ import FindCourse from "./FindCourse";
 const Discover = () => {
   return (
     <div className="space-y-5 mt-10 px-4 md:px-0">
+      {/* <div className="h-screen"> */}
       <div className="relative w-full h-[544px] max-w-[1240px] mx-auto shadow-lg overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center">
           <img
@@ -20,6 +21,7 @@ const Discover = () => {
           Discover the course you are looking for
         </h1>
       </div>
+      {/* </div> */}
       <FindCourse></FindCourse>
       <CourseCard />
       <DiscountedCard />
