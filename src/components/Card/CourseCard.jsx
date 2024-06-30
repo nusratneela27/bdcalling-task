@@ -57,6 +57,7 @@ const CourseCard = () => {
       {courses.map((course, index) => (
         <Card
           key={index}
+          className="shadow-lg hover:shadow-xl transition-shadow duration-300"
           style={{
             width: 400,
           }}

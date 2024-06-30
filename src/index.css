@@ -20,7 +20,7 @@ body {
 }
 
 .shadow1 {
-  background: url(../src/assets/Shadow-bg/Purple.png);
+  background: url(../src/assets/Shadow-bg/shadow1.png);
   background-repeat: no-repeat;
   background-size: contain;
 }

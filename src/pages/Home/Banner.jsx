@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col items-center justify-center  space-y-5  shadow1 min-h-screen">
+    <div className="flex flex-col items-center justify-center  space-y-5 mt-40 px-4 md:px-0">
       <h1 className="text-2xl md:text-5xl lg:text-6xl font-semibold whitespace-nowrap">
         Unlock Your Potential with
       </h1>

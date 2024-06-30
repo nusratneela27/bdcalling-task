@@ -4,9 +4,9 @@ import Navbar from "../components/Shared/Navbar/Navbar";
 
 const Main = () => {
   return (
-    <div className="bg-slate-50 shadow2">
-      <Navbar></Navbar>
-      <Outlet></Outlet>
+    <div className="bg-gradient-to-b from-customColor1  to-customColor2 min-h-screen">
+      <Navbar />
+      <Outlet />
     </div>
   );
 };

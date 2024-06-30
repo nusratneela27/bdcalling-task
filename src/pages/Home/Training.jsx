@@ -10,7 +10,7 @@ import t6 from "../../assets/training/t6.png";
 const Training = () => {
   return (
     <div>
-      <div className="flex flex-col justify-center items-center space-y-5 mt-40 px-4 md:px-0">
+      <div className="flex flex-col justify-center items-center space-y-5 mt-48 px-4 md:px-0 ">
         <Button
           type="primary"
           className="bg-white border-none text-black text-base rounded-2xl shadow-md px-5 py-3"
